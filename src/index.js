@@ -4,7 +4,7 @@ import { Provider } from "react-redux";
 import reduser from "./redux/store";
 import App from "./App";
 import { BrowserRouter as Router } from "react-router-dom";
-import * as serviceWorker from "./serviceWorker";
+import * as serviceWorker from "/serviceWorker";
 import { createStore } from "redux";
 const store = createStore(reduser);
 ReactDOM.render(

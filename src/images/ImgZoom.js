@@ -1,6 +1,6 @@
 import React from "react";
-import "../css/imgzoom.css";
-import Close from "../svg/Close";
+import "/css/imgzoom.css";
+import Close from "/svg/Close";
 export default function ImgZoom(props) {
   let styles = {
     head: { color: "aquamarine" },

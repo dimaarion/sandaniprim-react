@@ -1,10 +1,10 @@
 import React from "react";
-import MessageButton from "../headbar/MessageButton";
-import { strArr } from "../action";
-import "../css/headscroll.css";
-import TelScroll from "../svg/TelScroll";
-import Lang from "../headbar/Lang";
-import Logotype from "../svg/Logotype";
+import MessageButton from "/headbar/MessageButton";
+import { strArr } from "/action";
+import "/css/headscroll.css";
+import TelScroll from "/svg/TelScroll";
+import Lang from "/headbar/Lang";
+import Logotype from "/svg/Logotype";
 export default function HeadScroll(props) {
   return (
     <header className="headscrollBox">
