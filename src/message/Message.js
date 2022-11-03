@@ -3,13 +3,13 @@
 import React, { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import { get, stylesScrollTop } from "../action";
-import "../css/lang.css";
-import Footer from "../footer/Footer";
-import HeadPage from "../header/HeadPage";
-import Menu from "../menu/Menu";
-import Check from "../svg/Check";
-import TelScroll from "../svg/TelScroll";
-import HeadScroll from "../header/HeadScroll";
+import "/css/lang.css";
+import Footer from "/footer/Footer";
+import HeadPage from "/header/HeadPage";
+import Menu from "/menu/Menu";
+import Check from "/svg/Check";
+import TelScroll from "/svg/TelScroll";
+import HeadScroll from "/header/HeadScroll";
 
 export default function Message(props) {
   const [name, setName] = useState({ str: "", count: 0, valid: false });

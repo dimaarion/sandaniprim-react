@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../css/article.css";
+import "/css/article.css";
 export default function Article(props) {
   function createMarkup(content = "") {
     return { __html: content };

@@ -2,8 +2,8 @@
 import React from "react";
 import { useDispatch } from "react-redux";
 import { Link } from "react-router-dom";
-import { urlMdRu } from "../action";
-import "../css/lang.css";
+import { urlMdRu } from "/action";
+import "/css/lang.css";
 export default function Lang(props) {
   const LANG = useDispatch();
   const MENUID = useDispatch();

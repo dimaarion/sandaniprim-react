@@ -1,8 +1,8 @@
 import React from "react";
-import Icons from "../icons/Icons";
-import Vector from "../svg/Vector";
-import Check from "../svg/Check";
-import "../css/homdisplay.css";
+import Icons from "/icons/Icons";
+import Vector from "/svg/Vector";
+import Check from "/svg/Check";
+import "/css/homdisplay.css";
 export default function HomDisplay(props) {
   function profile(props) {
     return (

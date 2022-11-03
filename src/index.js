@@ -1,13 +1,21 @@
-import { StrictMode } from "react";
-import { createRoot } from "react-dom/client";
-
+import React from "react";
+import ReactDOM from "react-dom";
+import { Provider } from "react-redux";
+import reduser from "./redux/store";
 import App from "./App";
-
-const rootElement = document.getElementById("root");
-const root = createRoot(rootElement);
-
-root.render(
-  <StrictMode>
-    <App />
-  </StrictMode>
+import { BrowserRouter as Router } from "react-router-dom";
+import * as serviceWorker from "/serviceWorker";
+import { createStore } from "redux";
+const store = createStore(reduser);
+ReactDOM.render(
+  <React.StrictMode>
+    <Provider store={store}>
+      <Router>
+        <App />
+      </Router>
+    </Provider>
+  </React.StrictMode>,
+  document.getElementById("container")
 );
+
+serviceWorker.unregister();
